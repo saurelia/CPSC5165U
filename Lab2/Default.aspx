@@ -22,13 +22,17 @@
                     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="SqlDataSource1" DataTextField="Name" DataValueField="CustomerID"></asp:DropDownList><asp:SqlDataSource runat="server" ID="SqlDataSource1" ConnectionString='<%$ ConnectionStrings:ConnectionString %>' SelectCommand="SELECT * FROM [Customers] ORDER BY [Name]"></asp:SqlDataSource>
                 </td>
             </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+			<tr>
+                <td>Item 1:</td>
+                <td>Test</td>
             </tr>
             <tr>
-                <td>&nbsp;</td>
-                <td>&nbsp;</td>
+                <td>Item 2:</td>
+                <td>Test</td>
+            </tr>
+            <tr>
+                <td>Item 3:</td>
+                <td>Test</td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
